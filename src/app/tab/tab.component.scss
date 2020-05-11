@@ -1,0 +1,192 @@
+.tot-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:#FFF5F4;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-content: stretch;
+    align-items: stretch;
+    border: #FF645E solid 3px;
+    }
+
+    
+.displ{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    border: #FF645E solid 1px;
+    background-color: rgb(248, 188, 186) ;
+}
+
+.maindisplay {
+    height: 40vh;
+    width: 45vw;
+    padding: 5% !important;
+    font-size: 4rem;
+    text-align: right;
+    font-family: Courier, monospace;
+    overflow: auto;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    
+}
+
+.subdisplay {
+    border-bottom: 1px solid rgb(3, 3, 3);
+    height: 35%;
+    width: auto;
+    font-size: 3rem;
+    overflow: auto;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    background-color: rgb(252, 118, 113);
+    
+}
+
+.core{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+}
+
+.operation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    margin-left: 2% ;
+}
+
+.tasti{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.operation1, .operation2, .operation3, .operation4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.flex-item {
+    flex: 1 1 auto;
+    order: 0;
+    align-self: auto;
+}
+
+.inpt{
+    background-color:#ffffff ;
+    color: #FF645E        ;
+    font-size: 22pt;
+    font-style: bold;
+    border: none;
+    margin: 4px 2px;
+    border: #FF645E solid 1px;
+    padding: 2px 2px 2px 2px;
+    height: 9vh;
+    width: 9vw;
+}
+
+.red{
+    display: flex;
+    flex-direction: row;
+}
+
+.blue{
+    display: flex;
+    flex-direction: row;
+}
+
+.yellow{
+    display: flex;
+    flex-direction: row;
+}
+
+.green{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+@media only screen and (max-width: 4000px) {
+    
+    
+    
+}
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .flex-container{
+        flex-direction: column;
+    }
+    
+    .core{
+        flex: 50 1 auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .flex-container{
+       flex-direction: column;
+   }
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .flex-container {
+        flex-direction: row;
+        width: 100%;
+      }
+      .core{
+        flex-direction: row;
+        width: 100%;
+      }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .core{
+        flex-direction: row;
+        width: 100%;
+      }
+    .flex-container {
+        flex-direction: row;
+        width: 100%;
+      }
+}
+
+

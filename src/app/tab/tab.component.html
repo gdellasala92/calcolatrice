@@ -1,0 +1,129 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="tot-box">
+
+    <div class="flex-container">
+
+            <div class = "displ">
+                <div class="maindisplay">
+                    <div class="subdisplay">{{ subText }}</div>
+                    {{ mainText }}
+                  </div>
+            </div>
+
+            <div class="core">
+
+                <div class="tasti">
+                    <div class="red">
+                        <div class = "flex-item">
+                            <input type="submit" id="7" value="7" (click)="pressKey('7')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id="8" value="8" (click)="pressKey('8')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id="9" value="9" (click)="pressKey('9')" class="inpt">
+                        </div>
+        
+                    </div>
+
+                    <div class="blue">
+                        
+                        <div class = "flex-item">
+                            <input type="submit" id="4" value="4" (click)="pressKey('4')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id="5" value="5" (click)="pressKey('5')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id="6" value="6" (click)="pressKey('6')" class="inpt">
+                        </div>
+                    
+                    </div>
+
+                    <div class="yellow">
+                        
+                        <div class = "flex-item">
+                            <input type="submit" id="1" value="1" (click)="pressKey('1')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id="2" value="2" (click)="pressKey('2')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id="3" value="3" (click)="pressKey('3')" class="inpt">
+                        </div>
+
+                    </div>
+
+                    <div class="green">
+        
+                        <div class = "flex-item">
+                            <input type="submit" id="0" value="0" (click)="pressKey('0')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id="." value="." (click)="pressKey('.')" class="inpt">
+                        </div>
+                        
+                        <div class = "flex-item">
+                            <input type="submit" value="C" (click)="Canc()" class="inpt">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="operation">
+                    <div class="operation1">
+                        
+                        <div class = "flex-item">
+                            <input type="submit" id="+" value="+" (click)="pressKey('+')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id="-" value="-" (click)="pressKey('-')" class="inpt">
+                        </div>
+
+                    </div>
+
+
+                    <div class="operation2">
+
+                        <div class = "flex-item">
+                            <input type="submit" id="*" value="*" (click)="pressKey('*')" class="inpt">
+                        </div>
+                        
+                        <div class = "flex-item">
+                            <input type="submit" id="/" value="/" (click)="pressKey('/')" class="inpt">
+                        </div>
+                    </div>
+
+                    <div class="operation3">
+                        <div class = "flex-item">
+                            <input type="submit" id="(" value="(" (click)="pressKey('(')" class="inpt">
+                        </div>
+
+                        <div class = "flex-item">
+                            <input type="submit" id=")" value=")" (click)="pressKey(')')" class="inpt">
+                        </div>
+                    </div>
+
+                    <div class="operation4">
+                        <div class = "flex-item">
+                            <button value="=" (click)="Result();" class="inpt">=</button>
+                        </div>
+
+                        <div class ="flex-item">
+                            <button value ="" class="inpt"></button>
+                        </div>
+                    </div>
+            </div>
+                
+        </div>
+     
+    </div>
+
+</div>
